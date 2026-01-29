@@ -10,7 +10,7 @@ class MyWidget extends StatelessWidget {
     var screenWidth = MediaQuery.sizeOf(context).width;
     var screenHeight = MediaQuery.sizeOf(context).height;
     return Scaffold(
-      backgroundColor: Color.fromARGB(189, 254, 206, 223),
+      backgroundColor: Color.fromARGB(255, 255, 194, 237),
       appBar: AppBar(
         title: Text("Products Store"),
         titleTextStyle: TextStyle(
@@ -18,7 +18,7 @@ class MyWidget extends StatelessWidget {
           color: Colors.black,
           fontSize: 20,
         ),
-        backgroundColor: const Color.fromARGB(189, 254, 206, 223),
+        backgroundColor: const Color.fromARGB(255, 255, 194, 237),
       ),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 8),
